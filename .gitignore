@@ -1,0 +1,41 @@
+# build output and anything derived from OldUnreal's binaries or the game
+out/
+work/
+build/
+deps-ios/
+Payload/
+*.ipa
+*.dylib
+*.dmg
+*.iso
+*.ISO
+*.cab
+*.hdr
+# game data
+*.u
+*.ut2
+*.utx
+*.usx
+*.ukx
+*.uax
+*.ogg
+*.int
+*.ini
+# signing
+*.mobileprovision
+*.p12
+*.cer
+__pycache__/
+# icons/art (game-derived art never goes in this repo), logs, local files
+*.png
+*.jpg
+*.jpeg
+*.car
+*.xcassets/
+*.log
+*.keys
+*.mobileprovision
+private/
+devtools/
+local/
+.DS_Store
